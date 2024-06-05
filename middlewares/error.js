@@ -7,7 +7,7 @@ class ErrorHandler extends Error{
 }
 
 
-export const errorMiddleWare = (err, req, res, next) => {
+export const errorMiddleWare = (err, res) => {
  
     //basically if err.message is pass in controller then show it otherwise general error is below 
 

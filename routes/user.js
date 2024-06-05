@@ -8,7 +8,6 @@ import {
 import { isAuth } from "../middlewares/auth.js";
 
 const router = express.Router();
-
 // prefix route is -> /users
 
 router.post("/register", register);
